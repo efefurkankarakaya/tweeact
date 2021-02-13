@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tweeact/static/css/main.e7131b32.chunk.css",
+    "main.js": "/tweeact/static/js/main.deabd6b7.chunk.js",
+    "main.js.map": "/tweeact/static/js/main.deabd6b7.chunk.js.map",
+    "runtime-main.js": "/tweeact/static/js/runtime-main.30b88e23.js",
+    "runtime-main.js.map": "/tweeact/static/js/runtime-main.30b88e23.js.map",
+    "static/js/2.0ec808cc.chunk.js": "/tweeact/static/js/2.0ec808cc.chunk.js",
+    "static/js/2.0ec808cc.chunk.js.map": "/tweeact/static/js/2.0ec808cc.chunk.js.map",
+    "static/js/3.a147b082.chunk.js": "/tweeact/static/js/3.a147b082.chunk.js",
+    "static/js/3.a147b082.chunk.js.map": "/tweeact/static/js/3.a147b082.chunk.js.map",
+    "index.html": "/tweeact/index.html",
+    "static/css/main.e7131b32.chunk.css.map": "/tweeact/static/css/main.e7131b32.chunk.css.map",
+    "static/js/2.0ec808cc.chunk.js.LICENSE.txt": "/tweeact/static/js/2.0ec808cc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30b88e23.js",
+    "static/js/2.0ec808cc.chunk.js",
+    "static/css/main.e7131b32.chunk.css",
+    "static/js/main.deabd6b7.chunk.js"
+  ]
+}
