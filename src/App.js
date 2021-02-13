@@ -47,9 +47,9 @@ function App() {
               {/* <Route exact path="/" component={Home} />   */}
               {/* if not given exact keyword here, when it finds "/" as a first char, it returns home*/}
               {/* "/" path changed to "/tweeact", it causes to return website homepage not limited to it's own directory*/}
-              <Route path="/tweeact" component={Home} /> 
-              <Route path="/about" component={About} />
-              <Route path="/contact" component={Contact} /> 
+              <Route exact path="/tweeact" component={Home} /> 
+              <Route path="/tweeact/about" component={About} />
+              <Route path="/tweeact/contact" component={Contact} /> 
             </Switch>
           </section>
         </main>
