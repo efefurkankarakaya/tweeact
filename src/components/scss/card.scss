@@ -1,0 +1,63 @@
+.card{
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-duration: var(--transition-duration);
+    padding: 20px;
+
+    &--center{
+        text-align: center;
+    }
+
+    // &--center input{
+    //     margin-top: 5px;
+    //     margin-bottom: 5px;
+    //     border-radius: 5px;
+    //     width: 175px;
+    //     outline: none;
+    //     border: 1px solid var(--border-color);
+    //     transition-property: box-shadow;
+    //     transition-duration: var(--transition-duration);
+    // }
+
+    // &--center input:hover{
+    //     box-shadow: var(--box-shadow-input);
+    // }
+
+    // &--center input:focus{
+    //     border: 1px solid var(--input-focus-color);
+    //     box-shadow: var(--box-shadow-input);
+    // }
+    
+    // &--heading{
+    //     margin-top: 20px;
+    //     margin-bottom: 20px;
+    //     display: block;
+    //     font-size: 30px;
+    // }
+
+    &--small{
+        text-align: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+    }
+
+    &--small:first-child{
+        margin-bottom: 8px;
+    }
+
+    &--large{
+        width: 600px;
+        height: 450px;
+    }
+}
+
+.card:hover{
+    box-shadow: var(--box-shadow-card);
+}
+
+.card input{
+    outline: none;
+}

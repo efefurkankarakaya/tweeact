@@ -1,0 +1,16 @@
+:root{
+    --theme-text-color: rgba(70, 164, 241, 0.712);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+    &--footer{
+        color: var(--theme-text-color);
+    }
+}

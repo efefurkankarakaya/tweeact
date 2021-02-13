@@ -1,0 +1,52 @@
+:root{
+    --theme-text-color: rgba(70, 164, 241, 0.712);
+    --text-muted-color: #676756;
+    --border-color: rgba(70, 164, 241, 0.712);
+    --input-focus-color: rgba(70, 164, 241, 1.112);
+    --box-shadow-color: rgba(70, 164, 241, 0.512);
+    --transition-duration: 0.5s;
+    --box-shadow-card: 0 4px 8px var(--box-shadow-color);
+    --box-shadow-input: 0 2px 4px var(--box-shadow-color);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+
+    &--heading{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+        font-size: 30px;
+    }
+
+    &__icon{
+
+        &--large{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: block;
+            font-size: 100px;
+        }
+    }
+
+    &__input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        width: 175px;
+        outline: none;
+        border: 1px solid var(--border-color);
+        transition-property: box-shadow;
+        transition-duration: var(--transition-duration);
+    }
+
+    &__input:hover{
+        box-shadow: var(--box-shadow-input);
+    }
+
+    &__input:focus{
+        border: 1px solid var(--input-focus-color);
+        box-shadow: var(--box-shadow-input);
+    }
+}

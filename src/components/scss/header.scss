@@ -1,0 +1,17 @@
+// hover'da sağa sola kayma efekti
+
+:root{
+    --theme-text-color: rgba(70, 164, 241, 0.712);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+
+    &__item{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        color: var(--theme-text-color);
+    }
+}
