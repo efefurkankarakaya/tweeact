@@ -8,12 +8,12 @@
         {
             "id": 1,
             "title": "About",
-            "href": "/about"
+            "href": "/tweeact/about"
         },
         {
             "id": 2,
             "title": "Contact",
-            "href": "/contact"
+            "href": "/tweeact/contact"
         }
     ]
 }
